@@ -45,7 +45,7 @@ public class EmployeeController {
 
         //3.将数据库中查询出的密码与用户输入的密码进行比对
         if (!emp.getPassword().equals(password)){
-            return R.error("你输入的密码有误，请重新输入");
+            return R.error("您输入的密码有误，请重新输入");
         }
 
         //4.查看账号的状态
